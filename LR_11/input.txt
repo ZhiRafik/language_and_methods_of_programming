@@ -1,0 +1,32 @@
+0x1
+1
+123
+0xA
+
+// LR_11_task2.c
+// #include <stdio.h>
+#include <time.h> // библиотека времени
+#include <ctype.h>
+    char someC;
+    int c;
+    int count = 0;
+
+    while ((c = fgetc(in)) != EOF) 
+        switch (st) 
+        case ST_CODE:
+            break;
+
+    FILE *in = fopen("input.txt", "r");
+    if (!in) {
+        perror("input.txt");
+        return 1;
+    }
+
+    int cnt = count_identifiers(in);
+    fclose(in);
+
+    FILE *out = fopen("output.txt", "w");
+    if (!out) {
+        perror("output.txt");
+        return 1;
+    }
